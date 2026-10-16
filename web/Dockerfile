@@ -1,5 +1,5 @@
 FROM python:2.7
-MAINTAINER Ram Durairajan "noemail@website.domain"
+MAINTAINER Jasper Riggs "jasr@uoregon.edu"
 RUN sed -i 's/deb.debian.org/archive.debian.org/g' /etc/apt/sources.list && \
     sed -i 's/security.debian.org/archive.debian.org/g' /etc/apt/sources.list && \
     # Disable expired security updates for oldstable to avoid 404s
